@@ -1,0 +1,40 @@
+@media only screen and (min-width: 800px) {
+  .padding-sections {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .padding-sections {
+    padding-left: 20px;
+    padding-right: 20px;
+
+  }
+}
+
+.padding-sections {
+  text-align: center;
+}
+
+section#Home {
+  /*background-image: url(images/mo.jpeg);
+  height: 500px;*/
+}
+h1, h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.twitter-timeline {
+  width: 80%!important;
+}
