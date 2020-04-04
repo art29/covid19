@@ -5,11 +5,22 @@
   }
 }
 
+@media only screen and (max-width: 1350px) {
+  section#Home {
+    padding-top: 35%;
+    padding-left: 0px!important;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   .padding-sections {
     padding-left: 20px;
     padding-right: 20px;
-
+  }
+  section#Home {
+    background-position: center;
+    padding-top: 65%;
+    padding-left: 0px!important;
   }
 }
 
@@ -18,13 +29,32 @@
 }
 
 section#Home {
-  /*background-image: url(images/mo.jpeg);
-  height: 500px;*/
+  background-image: url(images/makerspace-mask-1200x628.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 40%;
 }
-h1, h2 {
+
+section#Home p {
+  vertical-align: middle;
+}
+
+h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 2rem;
 }
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.8rem;
+}
+
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
@@ -38,3 +68,4 @@ section {
 .twitter-timeline {
   width: 80%!important;
 }
+
