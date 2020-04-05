@@ -1,3 +1,4 @@
+/* Mobile Stuff */
 @media only screen and (min-width: 800px) {
   .padding-sections {
     padding-left: 20%;
@@ -24,9 +25,7 @@
   }
 }
 
-.padding-sections {
-  text-align: center;
-}
+/* Sections */
 
 section#Home {
   background-image: url(images/makerspace-mask-1200x628.jpg);
@@ -45,6 +44,30 @@ section#Home p {
   vertical-align: middle;
 }
 
+section#Overview {
+  padding-top: 40px;
+}
+
+section#Help b {
+  font-weight: 500!important;
+}
+
+/* Div */
+
+.padding-sections {
+  text-align: center;
+}
+
+.twitter-timeline {
+  width: 80%!important;
+}
+
+.row {
+  margin: 0px!important;
+}
+
+/* Global */
+
 h2 {
   font-family: 'Roboto', sans-serif;
   font-size: 2rem;
@@ -61,15 +84,10 @@ p {
   font-weight: 300;
 }
 
-.row {
-  margin: 0px!important;
-}
-
 section {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.twitter-timeline {
-  width: 80%!important;
-}
+
+
 
