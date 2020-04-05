@@ -61,6 +61,10 @@ p {
   font-weight: 300;
 }
 
+.row {
+  margin: 0px!important;
+}
+
 section {
   padding-top: 20px;
   padding-bottom: 20px;
