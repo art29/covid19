@@ -25,6 +25,12 @@ section#Help b {
   font-weight: 500!important;
 }
 
+section#Help li {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 300;
+}
+
 /* Div */
 
 .padding-sections {
@@ -52,12 +58,6 @@ h1 {
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px;
-  font-weight: 300;
-}
-
-li {
   font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   font-weight: 300;
