@@ -45,6 +45,11 @@ section#Help li {
   margin: 0px!important;
 }
 
+.maximgheight {
+  max-height: 550px;
+}
+
+
 /* Global */
 
 h2 {
