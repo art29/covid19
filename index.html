@@ -28,7 +28,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-163327719-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-163327719-1');
@@ -76,6 +80,17 @@
     </div>
 </section>
 
+<section id="Counter">
+    <div class="padding-sections">
+        <div class="card border-secondary mb-4 shadow-sm">
+            <div class="card-body">
+                <h2 class="timer count-title count-number" data-to="1818" data-speed="1500"></h2>
+                <h2>Health Care Workers protected</h2>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section id="Overview">
     <div class="padding-sections">
         <h2>OVERVIEW</h2>
@@ -84,7 +99,7 @@
             hundreds of Face Shields a day with the help of our dedicated community of volunteers !
         </p>
         <br>
-        <div id="ImageCarousel" class="carousel slide" data-interval="2000" data-ride="carousel">
+        <div id="ImageCarousel" class="carousel slide" data-interval="5000" data-ride="carousel">
             <ol class="carousel-indicators">
                 <li data-target="#ImageCarousel" data-slide-to="0" class="active"></li>
                 <li data-target="#ImageCarousel" data-slide-to="1"></li>
@@ -120,7 +135,8 @@
                         Article</a></li>
                 </div>
                 <div class="col-md-4">
-                    <li><a rel="noreferrer" target="_blank" href="https://ottawa.ctvnews.ca/video?clipId=1930746&jwsource=cl">CTV
+                    <li><a rel="noreferrer" target="_blank"
+                           href="https://ottawa.ctvnews.ca/video?clipId=1930746&jwsource=cl">CTV
                         Interview with Dr. Hanan Anis</a></li>
                 </div>
                 <div class="col-md-4">
@@ -130,7 +146,8 @@
                 </div>
                 <div class="col-md-4">
                     <li><a rel="noreferrer" target="_blank"
-                           href="https://twitter.com/queenscomtrust/status/1245306845658578944">Twitter Interview with Midia
+                           href="https://twitter.com/queenscomtrust/status/1245306845658578944">Twitter Interview with
+                        Midia
                         Shikh Hassan</a></li>
                 </div>
                 <div class="col-md-4">
@@ -140,8 +157,8 @@
                 </div>
                 <div class="col-md-4">
                     <li><a rel="noreferrer" target="_blank"
-                          href="https://ici.radio-canada.ca/nouvelle/1689363/coronavirus-covid-19-universite-ottawa-recherche-masques-imprimantes-3d-hopital-montfort">Radio-Canada
-                    Article (In french)</a></li>
+                           href="https://ici.radio-canada.ca/nouvelle/1689363/coronavirus-covid-19-universite-ottawa-recherche-masques-imprimantes-3d-hopital-montfort">Radio-Canada
+                        Article (In french)</a></li>
                 </div>
             </div>
         </ul>
@@ -154,7 +171,8 @@
         <p>If you need PPE face shields for your hospital or for other medical institutions, tell us using the form
             below !</p>
         <p>Our team works with medical professionals to improve the face shields every day ! We now have a final design
-            that is <strong>Health Canada approved</strong>, which works really well for medical personnel using it ! We will try to do
+            that is <strong>Health Canada approved</strong>, which works really well for medical personnel using it ! We
+            will try to do
             our best to get them to you as fast as possible, but please note that it might take a few days to process
             and print the face shields.
         </p>
@@ -180,11 +198,12 @@
 <section id="Variations">
     <div class="padding-sections">
         <h2>VERSIONS OF THE FACE SHIELDS</h2>
-        <p>In the past few weeks, we have been iterating the face shields to get the best version possible for the workers. Here are images of the different versions. We now have 3 versions available.</p>
+        <p>In the past few weeks, we have been iterating the face shields to get the best version possible for the
+            workers. Here are images of the different versions. We now have 3 versions available.</p>
         <br>
         <div class="row">
             <div class="col-md-6">
-                <div id="RenderCarousel" class="carousel slide" data-interval="2000" data-ride="carousel">
+                <div id="RenderCarousel" class="carousel slide" data-interval="5000" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#RenderCarousel" data-slide-to="0" class="active"></li>
                         <li data-target="#RenderCarousel" data-slide-to="1"></li>
@@ -193,7 +212,7 @@
                         <li data-target="#RenderCarousel" data-slide-to="4"></li>
                         <li data-target="#RenderCarousel" data-slide-to="5"></li>
                     </ol>
-                    <div class="carousel-inner" >
+                    <div class="carousel-inner">
                         <div class="carousel-item active">
                             <img class="d-block w-100" src="images/versions/IMG_20200410_141413.jpg" alt="First slide">
                         </div>
@@ -231,26 +250,32 @@
                     <li>
                         The blue version works with velcro
                         <ul>
-                            <li><a rel="noreferrer" target="_blank" href="files/STL/Brim_MASK_VELCRO.stl">Velcro STL File</a></li>
-                            <li><a rel="noreferrer" target="_blank" href="files/STL/MASK_VELCRO_nobrim.stl">Velcro STL File (Without supports)</a></li>
+                            <li><a rel="noreferrer" target="_blank" href="files/STL/Brim_MASK_VELCRO.stl">Velcro STL
+                                File</a></li>
+                            <li><a rel="noreferrer" target="_blank" href="files/STL/MASK_VELCRO_nobrim.stl">Velcro STL
+                                File (Without supports)</a></li>
                         </ul>
                     </li>
                     <li>
                         The yellow version is glued
                         <ul>
-                            <li><a rel="noreferrer" target="_blank" href="files/STL/MASK_GLUED.stl">Glued STL File</a></li>
+                            <li><a rel="noreferrer" target="_blank" href="files/STL/MASK_GLUED.stl">Glued STL File</a>
+                            </li>
                         </ul>
                     </li>
                     <li>
                         The white version works with an elastic band
                         <ul>
-                            <li><a rel="noreferrer" target="_blank" href="files/STL/Brim_MASK_ELASTIC.stl">Elastic STL File</a></li>
-                            <li><a rel="noreferrer" target="_blank" href="files/STL/MASK_ELASTIC_nobrim.stl">Elastic STL File (Without supports)</a></li>
+                            <li><a rel="noreferrer" target="_blank" href="files/STL/Brim_MASK_ELASTIC.stl">Elastic STL
+                                File</a></li>
+                            <li><a rel="noreferrer" target="_blank" href="files/STL/MASK_ELASTIC_nobrim.stl">Elastic STL
+                                File (Without supports)</a></li>
                         </ul>
                     </li>
                     <br>
                     <div class="alert alert-warning" role="alert">
-                        For now, we need the <b>Velcro</b> version, you can follow the <a href="#Help3D">steps</a> to know how to help us with 3D printing !
+                        For now, we need the <b>Velcro</b> version, you can follow the <a href="#Help3D">steps</a> to
+                        know how to help us with 3D printing !
                     </div>
                 </ul>
             </div>
@@ -292,7 +317,9 @@
                             time, you will need to put the box outside to reduce human interactions
                         </li>
                         <li>You can drop them off between 1-2pm and between 6-7pm daily, We will have a box by the main
-                            entrance of STEM Complex (<a rel="noreferrer" target="_blank" href="https://goo.gl/maps/yndDkyJLkUSJdCvE9">160 Louis-Pasteur Private</a>).
+                            entrance of STEM Complex (<a rel="noreferrer" target="_blank"
+                                                         href="https://goo.gl/maps/yndDkyJLkUSJdCvE9">160 Louis-Pasteur
+                                Private</a>).
                         </li>
                     </ul>
 
@@ -340,5 +367,6 @@
         <br><br>
     </div>
 </footer>
+<script src="JS/counter.js"></script>
 
 </html>
