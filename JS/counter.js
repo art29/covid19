@@ -1,12 +1,11 @@
 var h2 = document.getElementById('CountUp');
-to = h2.getAttribute('data-to');
-speed = h2.getAttribute('data-speed');
-
+var to = h2.getAttribute('data-to');
+var speed = h2.getAttribute('data-speed');
 var count = 1;
 var intervalId;
 
 function counter() {
-    count+=7;
+    count+=9;
     if(count > to)  {
         clearInterval(intervalId);
         h2.innerHTML = to;
