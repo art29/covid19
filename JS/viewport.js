@@ -35,6 +35,7 @@ function isOutOfViewport(elem) {
 }
 
 var current;
+var changed = 0;
 
 var elem = document.querySelector('#CountUp');
 
@@ -42,8 +43,11 @@ function logViewport() {
     var isOut = isOutOfViewport(elem);
     if(current != isOut.any) {
         if (isOut.any == false) {
-            count = 1;
-            intervalId = setInterval(counter, (speed/to));
+            if(changed == 0) {
+                count = 1;
+                intervalId = setInterval(counter, (speed/to));
+            }
+            changed = 1
         }
     }
     current = isOut.any;
