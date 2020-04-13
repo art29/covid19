@@ -49,6 +49,14 @@ section#Help li {
   max-height: 550px;
 }
 
+.cleaning {
+  display: flex;
+  justify-content: center;
+}
+.cleaning b {
+  font-weight: 500;
+}
+
 /* Global */
 
 h2 {
