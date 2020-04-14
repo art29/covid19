@@ -26,12 +26,14 @@ section#Help b {
 }
 
 section#Help li {
-  font-family: 'Open Sans', sans-serif;
   font-size: 17px;
-  font-weight: 300;
 }
 
 /* Div */
+
+.nav li {
+  font-weight: 400;
+}
 
 .padding-sections {
   text-align: center;
@@ -58,20 +60,28 @@ section#Help li {
 }
 
 /* Global */
+body {
+  font-family: 'Roboto', sans-serif;
+}
 
 h2 {
-  font-family: 'Roboto', sans-serif;
   font-size: 2rem;
 }
 
 h1 {
-  font-family: 'Roboto', sans-serif;
   font-size: 4rem;
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
+  font-weight: 300;
+}
+
+li {
+  font-weight: 300;
+}
+
+span {
   font-weight: 300;
 }
 
@@ -100,6 +110,7 @@ section {
     padding-left: 20px;
     padding-right: 20px;
   }
+
   section#Home {
     background-position: center;
     padding-top: 65%;
