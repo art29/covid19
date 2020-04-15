@@ -59,6 +59,11 @@ section#Help li {
   font-weight: 500;
 }
 
+.donate {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
 /* Global */
 body {
   font-family: 'Roboto', sans-serif;
@@ -109,6 +114,11 @@ section {
   .padding-sections {
     padding-left: 20px;
     padding-right: 20px;
+  }
+
+  .donate {
+    padding-left: 10%;
+    padding-right: 10%;
   }
 
   section#Home {
